@@ -101,3 +101,131 @@
 .read-more:hover {
   color: #0056b3; /* 마우스를 올렸을 때 색상 변경 */
 }
+.styleddd-div {
+  border-radius: 10px; /* 둥근 테두리 설정 */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* 희미한 테두리 설정 */
+  background-color: #f0f0f0; /* 옅은 회색 배경색 설정 */
+  text-align: center; font-size: 1.7em; height: 100%;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+ 
+.special-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.special-form .fields {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.special-form .field {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.special-form .field.half {
+  width: 48%;
+  margin-right: 4%;
+}
+
+.special-form .field.half:last-child {
+  margin-right: 0;
+}
+
+.special-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.special-form input[type="text"],
+.special-form input[type="email"],
+.special-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.special-form textarea {
+  resize: none;
+  width: 95%; /* 가로폭을 95%로 조정합니다 */
+}
+
+.special-form .actions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.special-form .actions .button {
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.special-form .actions .button:hover {
+  background: #0056b3;
+}
+
+.special-form .actions .button:active {
+  background: #004494;
+}
+
+#success-message {
+  display: none;
+  color: green;
+  margin-top: 15px;
+}
+
+#loading-bar {
+  display: none;
+  color: blue;
+  margin-top: 15px;
+}
+
+
+
+
+#scroll-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  transition: transform 0.5s ease;
+}
+
+.shrink {
+  transform: scale(0.5); /* 요소의 크기를 절반으로 줄임 */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
