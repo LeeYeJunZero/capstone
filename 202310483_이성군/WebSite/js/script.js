@@ -44,3 +44,13 @@ document.getElementById('contact-form').addEventListener('submit', function(even
       scrollContainer.classList.remove('shrink'); // 스크롤이 맨 위에 있으면 'shrink' 클래스 제거
     }
   });
+
+  function showContent(contentId) {
+    // 모든 컨텐츠 숨기기
+    var contents = document.getElementsByClassName('content');
+    for (var i = 0; i < contents.length; i++) {
+        contents[i].classList.remove('active-content');
+    }
+    // 선택된 컨텐츠 보여주기
+    document.getElementById(contentId).classList.add('active-content');
+}
